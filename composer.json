@@ -8,6 +8,11 @@
             "email": "info@mage2gen.com"
         }
     ],
+    "repositories":
+    {
+      "url": "github.com/arefyevi/test.git", 
+      "type": "git"
+    },
     "minimum-stability": "dev",
     "require": {},
     "autoload": {
