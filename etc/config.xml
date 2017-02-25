@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+	<default>
+		<carriers>
+			<qwe>
+				<model>Illia\Test\Model\Carrier\Qwe</model>
+				<active>0</active>
+				<title>qwe</title>
+				<name>qwe</name>
+				<price>0.00</price>
+				<specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+				<sallowspecific>0</sallowspecific>
+			</qwe>
+			<eqwqwe>
+				<model>Illia\Test\Model\Carrier\Eqwqwe</model>
+				<active>0</active>
+				<title>eqwqwe</title>
+				<name>eqwqwe</name>
+				<price>0.00</price>
+				<specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+				<sallowspecific>0</sallowspecific>
+			</eqwqwe>
+		</carriers>
+		<payment>
+			<sdf>
+				<active>1</active>
+				<model>Illia\Test\Model\Payment\Sdf</model>
+				<order_status>pending</order_status>
+				<title>sdf</title>
+				<allowspecific>0</allowspecific>
+				<group>Offline</group>
+			</sdf>
+		</payment>
+	</default>
+</config>
